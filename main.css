@@ -1,0 +1,59 @@
+/**********************************
+GENERAL
+**********************************/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/**********************************
+NAV BAR
+**********************************/
+
+nav {
+	display: block;
+	width: 100%;
+	position: fixed;
+	background-color: #CDCCCC;
+}
+
+nav h2 {
+	float: left;
+	margin-left: 15px;
+}
+
+.nav-links li a {
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+	margin: 5px 15px 0 0;
+	font-size: 1.25em;
+	color: #483C6C;
+	font-weight: bold;
+}
+
+
+
+/**********************************
+SEARCH BAR
+**********************************/
+
+.searchbar {
+	position: relative;
+	top: 100px;
+}
+
+form button img {
+	height: 30px;
+}
+
+
+/**********************************
+RESULTS
+**********************************/
+
