@@ -37,6 +37,10 @@ nav h2 {
 	font-weight: bold;
 }
 
+.nav-links li a:hover {
+	color: #00C329;
+}
+
 
 
 /**********************************
@@ -46,14 +50,65 @@ SEARCH BAR
 .searchbar {
 	position: relative;
 	top: 100px;
+	font-size: 1.3em;
+	margin-left: 100px;
+}
+
+.searchbar input {
+	width: 400px;
+	margin: 10px 3px 0 0;
 }
 
 form button img {
-	height: 30px;
+	height: 18px;
+	width: 20px;
 }
 
 
 /**********************************
 RESULTS
 **********************************/
+p#result-range {
+	padding: 5px 20px;
+}
 
+.results-nav {
+	position: relative;
+	top: 150px;
+	margin-left: 100px;
+}
+
+.results-nav p {
+	display: inline-block;
+	border: 1px solid #878484;
+	padding: 5px 10px;
+	margin: 0;
+}
+
+.results {
+	position: relative;
+	top: 200px;
+	margin-left: 100px;
+}
+
+.results ul {
+	list-style: none;
+	margin-left: -35px;
+}
+
+.results ul li {
+	margin-bottom: 10px;
+}
+
+.results ul li p {
+	display: inline;
+	color: #7E7B7B;
+	font-weight: normal;
+	margin-right: 5px;
+}
+
+#job-title {
+	color: #0021E7;
+	font-size: 1em;
+	font-weight: bold;
+}
